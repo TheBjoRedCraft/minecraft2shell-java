@@ -1,4 +1,6 @@
-# Minecraft 26.3 resource-pack RCE PoC
+Name is ironic given recent events
+
+# minecraft2shell
 
 This private reproduction uses one server-delivered resource pack to launch Windows Calculator from the Mojang-signed Minecraft 26.3 client. The [writeup](WRITEUP.md) explains the native TrueType primitive and the complete chain from font bytecode to the Windows API call.
 
