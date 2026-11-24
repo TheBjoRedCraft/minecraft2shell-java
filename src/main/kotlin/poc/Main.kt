@@ -189,7 +189,7 @@ object Main {
         )
         Files.writeString(
             serverDir.resolve("server.properties"),
-            lines.joinToString("") + "",
+            lines.joinToString("\n"),
             StandardCharsets.US_ASCII
         )
     }
