@@ -1,10 +1,7 @@
 plugins {
-    kotlin("jvm") version "2.1.0"
+    kotlin("jvm") version "2.4.20"
     application
 }
-
-group = "dev.bikini"
-version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -17,7 +14,7 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
 
 application {
